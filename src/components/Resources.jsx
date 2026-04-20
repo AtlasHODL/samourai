@@ -356,7 +356,7 @@ const Resources = () => {
               <div className='bg-black text-white'>
                 <ul className='ms-4 pe-2 h-[28rem] text-3xl font-mono overflow-y-scroll'>
                   <li className='py-6 pt-2'>
-                    <a className='block ease-out hover:text-red transition-color duration-300' href="" target='__blank'>RoninDojo</a>
+                    <a className='block ease-out hover:text-red transition-color duration-300' href="https://ronindojo.io/" target='__blank'>RoninDojo</a>
                   </li>
                   {roninDojoList.map((roninDojo, key) => {
                     return (

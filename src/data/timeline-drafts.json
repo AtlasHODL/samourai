@@ -1,0 +1,515 @@
+[
+  {
+    "date": "2024-07-10",
+    "title": "Status Conference",
+    "summary": "Criminal docket entry recording a ten-minute status conference before Judge Berman with Hill and counsel present. The conference set a follow-up appearance for September 10, 2024 and excluded time under the Speedy Trial Act.",
+    "significance": "First scheduled status conference following Hill's initial appearance; establishes the early schedule and the pattern of speedy-trial exclusions that would recur throughout the case.",
+    "link": "https://web.archive.org/web/20250602223456/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.39.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Document is a standard clerk-to-docket memorandum; summary describes the procedural event rather than argument or substance."
+  },
+  {
+    "date": "2024-07-19",
+    "title": "Notice of Filing of Official Transcript",
+    "summary": "Court reporter's notice that an official transcript has been filed in the case, with the standard seven-day redaction period running under Fed. R. Crim. P. 49.1.",
+    "significance": "Administrative notice making an earlier hearing transcript part of the record; triggers the redaction window for the parties.",
+    "link": "https://web.archive.org/web/20250602223748/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.43.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2024-07-19",
+    "title": "Notice of Filing of Official Transcript (Conference of 7/10/2024)",
+    "summary": "Court reporter's notice that the official transcript of the July 10, 2024 conference in United States v. Hill has been filed, certified by reporter Andrew Walker.",
+    "significance": "Companion notice to the earlier same-day filing; places the July 10 conference transcript formally on the docket.",
+    "link": "https://web.archive.org/web/20250602223908/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.45.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Paired with entry 43 on the same date; kept as separate items per instructions since each is a distinct docket filing."
+  },
+  {
+    "date": "2024-08-12",
+    "title": "Government Letter Transmitting Proposed Protective Order",
+    "summary": "Letter from the U.S. Attorney's Office to Judge Berman transmitting a proposed protective order over discovery materials, citing the need to safeguard ongoing investigative information and personal information of third parties. The letter notes defense counsel has already executed the proposed order.",
+    "significance": "Initiates the case's discovery-confidentiality regime, which would later frame which materials the defense could file publicly and which required sealing.",
+    "link": "https://web.archive.org/web/20250602224025/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.46.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2024-08-12",
+    "title": "Proposed Protective Order (Attachment)",
+    "summary": "The proposed protective order attached to the government's August 12 letter, defining categories of Disclosure Material, Sealed Material, Attorney's Possession Only (APO) and Attorney's Eyes Only (AEO) material, and setting rules on handling and filing.",
+    "significance": "Sets the framework that would govern how sensitive discovery, including materials relating to third parties and ongoing investigations, could be used and filed in the case.",
+    "link": "https://web.archive.org/web/20250723195719/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.46.1.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Flagged sealed-risk because the order's categories (APO/AEO/Sealed) are the mechanism through which later defense filings were held back from the public docket."
+  },
+  {
+    "date": "2024-08-13",
+    "title": "Protective Order",
+    "summary": "Protective order entered by the court governing the handling of discovery materials in the case, including categories for sealed, attorney-possession-only, and attorney-eyes-only material.",
+    "significance": "Formalizes the confidentiality regime that structures later sealing disputes and redaction practices in the case.",
+    "link": "https://web.archive.org/web/20250602224227/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.47.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "PDF is image-only; description relies on the proposed order attached at Dkt. 46-1, which was entered on consent."
+  },
+  {
+    "date": "2024-08-28",
+    "title": "Defense Letter Requesting Bond Modification",
+    "summary": "Letter from Hill's counsel asking the court to modify his bond conditions so he may travel from Lisbon to the Southern District of New York accompanied by his Portuguese counsel rather than U.S. defense counsel. The government and Pretrial Services did not object.",
+    "significance": "Housekeeping modification to Hill's travel conditions, illustrating the practical logistics of a defendant litigating the case from abroad.",
+    "link": "https://web.archive.org/web/20260409021322/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.48.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2024-08-29",
+    "title": "Memo Endorsement Granting Bond Modification",
+    "summary": "Judge Berman's one-line memo endorsement on the August 28 defense letter, granting the requested bond modification on consent.",
+    "significance": "Court's approval of the travel-escort modification; routine procedural order.",
+    "link": "https://web.archive.org/web/20260409021516/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.49.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-01-16",
+    "title": "Memo Endorsement Adjourning Status Conference",
+    "summary": "Defense letter requesting that the March 12, 2025 status conference be adjourned to March 18, 2025, endorsed and granted by the court on the same day.",
+    "significance": "Minor scheduling adjustment; sets the date for the next status conference.",
+    "link": "https://web.archive.org/web/20250602224417/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.66.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-01-21",
+    "title": "Memo Endorsement",
+    "summary": "One-page memo endorsement. The docket entry is an image-only filing with no extractable body text beyond the header.",
+    "significance": "Procedural; no substantive content available from the PDF.",
+    "link": "https://web.archive.org/web/20250602224542/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.68.0.pdf",
+    "flags": ["minimal-content", "ambiguous"],
+    "reviewerNote": "PDF is a scanned one-pager with no extractable text; summary is intentionally minimal."
+  },
+  {
+    "date": "2025-03-17",
+    "title": "Notice of Appearance (AUSA Cecilia E. Vogel)",
+    "summary": "Notice of appearance by Assistant U.S. Attorney Cecilia E. Vogel on behalf of the government, adding her as a filing user in the case.",
+    "significance": "Expands the government's team of record ahead of pretrial motion practice.",
+    "link": "https://web.archive.org/web/20250602224841/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.75.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-03-17",
+    "title": "Joint Status Letter",
+    "summary": "Joint letter from the parties updating the court on discovery, including several additional batches produced since December 2024 and the status of encrypted devices seized from Rodriguez. The letter notes the defense's recent bill-of-particulars demand and the government's written response.",
+    "significance": "Snapshot of the discovery landscape in advance of the March 18 pretrial conference; signals that the case is approaching pretrial motions.",
+    "link": "https://web.archive.org/web/20250602225031/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.76.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-03-18",
+    "title": "Status Conference",
+    "summary": "Docket memorandum recording a six-minute status conference before Judge Berman at which the court set the pretrial motion schedule (defense motions due May 9, government response June 6, reply June 20, oral argument July 16).",
+    "significance": "First briefing schedule for pretrial motions, including the anticipated motion to dismiss.",
+    "link": "https://web.archive.org/web/20250602225221/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.77.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-04-01",
+    "title": "Memo Endorsement",
+    "summary": "Two-page memo endorsement filed on April 1, 2025. The filing is image-only on the docket and its operative text is not extractable from the PDF.",
+    "significance": "According to later filings, this is the date on which the government made its Brady disclosure concerning the August 2023 FinCEN call; the endorsement itself appears routine.",
+    "link": "https://web.archive.org/web/20250602225906/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.81.0.pdf",
+    "flags": ["minimal-content", "ambiguous"],
+    "reviewerNote": "PDF is scanned; significance notes the date's importance as referenced in later defense briefing (Dkts. 86, 89) without asserting what the endorsement itself says."
+  },
+  {
+    "date": "2025-04-07",
+    "title": "Deputy Attorney General Memorandum: Ending Regulation by Prosecution (Blanche Memo)",
+    "summary": "Memorandum from Deputy Attorney General Todd Blanche to all Justice Department employees setting new enforcement policy for digital assets, directing that the Department will no longer pursue actions against virtual currency exchanges, mixing and tumbling services, and offline wallets for acts of their end users or unwitting regulatory violations, and refocusing priorities on investor-victimization and illicit-finance cases.",
+    "significance": "External policy development that the defense invoked in subsequent filings in the Samourai case as grounds for dismissal; shapes the case's political and legal backdrop.",
+    "link": "https://web.archive.org/web/20250528102226/https://www.justice.gov/dag/media/1395781/dl?inline",
+    "flags": [],
+    "reviewerNote": "This is a DOJ policy memo, not a case filing; tone kept strictly neutral and attributed."
+  },
+  {
+    "date": "2025-04-28",
+    "title": "Joint Letter Seeking Continuance of Motion Schedule",
+    "summary": "Joint letter from the parties asking for a sixteen-day continuance of the pretrial motion schedule so that the government could evaluate the defense's April 10 request to dismiss the indictment under the Blanche Memo. Proposes motions due May 29, responses June 26, replies July 10.",
+    "significance": "Extends the briefing calendar and places the Blanche Memo on the record as a disputed basis for potential dismissal.",
+    "link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.84.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-04-29",
+    "title": "Memo Endorsement on Motion-Schedule Continuance",
+    "summary": "Memo endorsement granting the parties' April 28 joint request to extend the pretrial motion schedule. Filing is image-only with no extractable body text.",
+    "significance": "Adopts the revised motion schedule (motions May 29; responses June 26; replies July 10).",
+    "link": "https://web.archive.org/web/20250602230101/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.85.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned PDF; significance inferred from the joint letter it endorses and from later references in Dkts. 98 and 130."
+  },
+  {
+    "date": "2025-05-05",
+    "title": "Defense Letter Requesting Hearing on Brady Disclosure",
+    "summary": "Letter from Hill and Rodriguez's counsel requesting a hearing to address the circumstances surrounding the government's April 1, 2025 disclosure of an August 23, 2023 call between prosecutors and FinCEN officials, in which FinCEN representatives were said to have indicated that Samourai Wallet would not qualify as a money services business under FinCEN's guidance. The defense argues the disclosure was untimely under Brady and the court's Rule 5(f) orders.",
+    "significance": "Opens the Brady dispute that runs through the spring and summer of 2025 and becomes a central defense theme.",
+    "link": "https://web.archive.org/web/20250602220312/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.86.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-05-06",
+    "title": "Memo Endorsement on Brady Hearing Letter",
+    "summary": "Memo endorsement on the May 5 defense letter. Filing is image-only and the operative text is not extractable from the PDF.",
+    "significance": "Per later filings (Dkt. 90, Dkt. 98), the court directed the defense to raise the Brady issue in the pretrial motions rather than rule separately at this stage.",
+    "link": "https://web.archive.org/web/20250602230408/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.87.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned PDF; significance attributed to subsequent filings referencing this endorsement."
+  },
+  {
+    "date": "2025-05-09",
+    "title": "Government Letter Opposing Brady Hearing",
+    "summary": "Government letter responding to the defense's May 5 letter. Prosecutors argue that their April 1 disclosure regarding the August 2023 FinCEN call does not reflect a Brady violation, that the information was produced well ahead of trial, and that no hearing or remedy is warranted.",
+    "significance": "Frames the government's position in the Brady dispute; also summarizes the government's broader allegations about Samourai's intended customer base.",
+    "link": "https://web.archive.org/web/20250602230954/https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.88.0.pdf",
+    "flags": ["ambiguous"],
+    "reviewerNote": "URL uses CourtListener docket 615996, but the document body is captioned United States v. Rodriguez and Hill, 24 Cr. 82 (RMB) and its substance is the government's opposition to the defense Brady request; appears to be an alternate CourtListener recap path for the same underlying PACER docket."
+  },
+  {
+    "date": "2025-05-12",
+    "title": "Defense Reply Letter on Brady Hearing",
+    "summary": "Reply letter from Hill and Rodriguez's counsel to the government's May 9 response, maintaining that the August 2023 FinCEN call is classic Brady material and that the year-long delay in disclosure warrants a hearing and possible sanctions.",
+    "significance": "Completes the initial three-letter exchange on the Brady issue before the court directs the dispute into pretrial motion briefing.",
+    "link": "https://web.archive.org/web/20250602230649/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.89.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-05-14",
+    "title": "Memo Endorsement Deferring Brady Motion to Pretrial Briefing",
+    "summary": "Memo endorsement on the Brady exchange. The filing is image-only on the docket, but later filings indicate the court directed the defense to raise the issue in its pretrial motions rather than adjudicate it at this stage.",
+    "significance": "Routes the Brady dispute into the consolidated pretrial motion schedule.",
+    "link": "https://web.archive.org/web/20250602231237/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.90.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Endorsement text not extractable; characterization drawn from how Dkt. 98 describes this order."
+  },
+  {
+    "date": "2025-05-29",
+    "title": "Motion to Admit Anthony J. Franze Pro Hac Vice",
+    "summary": "Motion by attorney Anthony J. Franze of Arnold & Porter Kaye Scholer LLP for admission pro hac vice to appear as counsel for defendant Keonne Rodriguez.",
+    "significance": "Expands Rodriguez's defense team as pretrial motions are filed.",
+    "link": "https://web.archive.org/web/20250602231414/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.93.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-05-29",
+    "title": "Defendants' Motion to Dismiss Indictment (Memorandum of Law)",
+    "summary": "Joint defense memorandum of law moving to dismiss the indictment, arguing that Samourai Wallet was not a money transmitting business under 18 U.S.C. Section 1960, that FinCEN guidance and a 2023 FinCEN call advised it was not, that the government's charging theory deprived defendants of fair notice, and that the Section 1956 money-laundering conspiracy count fails as a matter of law.",
+    "significance": "Principal pretrial challenge to the indictment; tees up the core legal dispute about the reach of federal money-transmission law to non-custodial cryptocurrency software.",
+    "link": "https://web.archive.org/web/20250601131426/https://storage.courtlistener.com/recap/gov.uscourts.nysd.615997/gov.uscourts.nysd.615997.95.0.pdf",
+    "flags": ["ambiguous"],
+    "reviewerNote": "URL uses CourtListener docket 615997 but caption and content are 24 Cr. 82 (RMB) — this is the Memorandum of Law in Support of Defendants' Motion to Dismiss, verified from the document body. Docket-number mismatch appears to be a CourtListener recap index quirk."
+  },
+  {
+    "date": "2025-05-29",
+    "title": "Defense Letter Motion on FinCEN Disclosure",
+    "summary": "Letter-motion by both defendants renewing their request for an order compelling disclosure of additional communications concerning the August 23, 2023 FinCEN call and for a hearing on the circumstances and remedy for the delayed Brady production.",
+    "significance": "Preserves the Brady dispute as part of the pretrial motion record, as directed by the court's earlier endorsement.",
+    "link": "https://web.archive.org/web/20250602231617/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.98.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-05-29",
+    "title": "Hill's Motion to Suppress (Notice of Motion)",
+    "summary": "Notice of motion by defendant Hill to suppress evidence obtained from the seizure and search of his personal email account, and, under Fed. R. Crim. P. 41(g), for return or destruction of non-responsive data.",
+    "significance": "Opens the Fourth Amendment challenge to the government's email search, one of Hill's principal pretrial motions.",
+    "link": "https://web.archive.org/web/20250602232610/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.99.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Flagged sealed-risk per instructions for suppression motions; this filing is the public notice of motion, while the accompanying memorandum of law (Dkt. 136) was later partially sealed before public re-filing."
+  },
+  {
+    "date": "2025-05-29",
+    "title": "Hill's Motion for a Separate Trial",
+    "summary": "Notice of motion by defendant Hill under Rule 14(a) of the Federal Rules of Criminal Procedure and the Fifth and Sixth Amendments, seeking severance of his trial from co-defendant Rodriguez on the ground that joint trial would deprive him of the opportunity to call Rodriguez as a witness.",
+    "significance": "Initiates the severance dispute later decided by Judge Cote (Dkt. 133).",
+    "link": "https://web.archive.org/web/20250602232833/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.102.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-05-29",
+    "title": "Memorandum of Law in Support of Hill's Severance Motion",
+    "summary": "Memorandum of law supporting Hill's motion to sever his trial from Rodriguez's, arguing that Hill expects Rodriguez would offer exculpatory testimony about Samourai's design and legal review if tried first.",
+    "significance": "Sets out the defense theory for severance and previews potential advice-of-counsel themes without waiving the privilege.",
+    "link": "https://web.archive.org/web/20250602233104/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.103.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-06-03",
+    "title": "Memo Endorsement on Amicus Participation",
+    "summary": "Six-page memo endorsement; filing is image-only on the docket. Later filings indicate the court denied proposed amici leave to file written briefs but left open the possibility of oral argument assistance at the motion-to-dismiss hearing.",
+    "significance": "Shapes the role of cryptocurrency-industry amici (DeFi Education Fund, Blockchain Association, Coin Center, Bitcoin Policy Institute, The Digital Chamber) in the motion-to-dismiss proceedings.",
+    "link": "https://web.archive.org/web/20250625202733/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.106.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "PDF is scanned; characterization based on Dkt. 120's direct quotation of this order."
+  },
+  {
+    "date": "2025-06-06",
+    "title": "Amended Memorandum in Support of Motion to Dismiss",
+    "summary": "Amended joint defense memorandum in support of the motion to dismiss. Restates the arguments that Samourai Wallet is not a money transmitting business under Section 1960, that FinCEN guidance advised as much, that defendants lacked fair notice, and that the Section 1956 count is legally insufficient.",
+    "significance": "Operative version of the motion-to-dismiss brief that the government answered and the court ultimately considered.",
+    "link": "https://web.archive.org/web/20250625204133/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.107.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-06-24",
+    "title": "S3 Superseding Redacted Indictment",
+    "summary": "Third superseding indictment returned by the grand jury, filed in redacted form. Per the government's companion letter (Dkt. 116), the S3 indictment extends the charged conspiracy periods through the April 2024 arrests, removes one object from the Section 1960 count, adds controlled-substance distribution as a specified unlawful activity under Count One, narrows the Section 1956 \"financial transaction\" theory, and adds factual allegations obtained during the investigation.",
+    "significance": "Operative charging instrument for trial; narrows and modifies the theories of liability without adding new counts.",
+    "link": "https://web.archive.org/web/20250625204249/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.109.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "PDF is image-only; substantive description is drawn from the government's Dkt. 116 summary of the changes. Flagged sealed-risk because the indictment is filed in redacted form and contains allegations about uncharged third parties."
+  },
+  {
+    "date": "2025-06-26",
+    "title": "Government Letter Summarizing S3 Superseding Indictment",
+    "summary": "Government letter to Judge Berman requesting arraignment on the S3 superseding indictment at the next conference and describing its scope. The letter notes the S3 adds no new counts, extends the conspiracy period through the April 2024 arrests, removes one Section 1960 object, adds controlled-substance distribution as a specified unlawful activity, narrows the Section 1956 theory, and adds factual allegations.",
+    "significance": "Provides the plain-English summary of the S3 indictment's changes and records the consent exclusion of speedy-trial time.",
+    "link": "https://web.archive.org/web/20250716091547/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.116.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-06-26",
+    "title": "Government's Omnibus Opposition to Pretrial Motions",
+    "summary": "Eighty-three-page government brief opposing the defendants' pretrial motions. The government argues that Count Two (Section 1960 conspiracy) and Count One (Section 1956 conspiracy) are sufficiently pleaded, that Hill's motion to suppress the email search warrant and request for a Franks hearing should be denied, that Hill's severance motion should be denied, and that the defense demand for additional Brady-related disclosure and a hearing should be denied.",
+    "significance": "Consolidated government response to every pretrial motion filed by the defense; anchors the pretrial record on which Judges Berman and Cote acted.",
+    "link": "https://web.archive.org/web/20250716091530/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.118.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Flagged sealed-risk because the brief discusses the content of the email search warrant affidavit and identifies alleged third-party conduct the government attributes to Samourai's user base."
+  },
+  {
+    "date": "2025-07-03",
+    "title": "Notice of Appearance (Amici Counsel)",
+    "summary": "Notice of appearance by Daniel M. Vitagliano of Consovoy McCarthy PLLC as counsel for amici curiae DeFi Education Fund and Blockchain Association.",
+    "significance": "Formalizes industry amici's entry into the record in advance of the motion-to-dismiss argument.",
+    "link": "https://web.archive.org/web/20250723195749/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.119.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-03",
+    "title": "Letter Motion for Amici Oral Argument",
+    "summary": "Letter motion by counsel for amici DeFi Education Fund, Blockchain Association, Coin Center, Bitcoin Policy Institute, and The Digital Chamber seeking leave to participate at the July 22 oral argument on the motion to dismiss. Defendants consent; the government states only that amici participation is \"not necessary.\"",
+    "significance": "Seeks a voice for cryptocurrency-industry amici at the dispositive motion-to-dismiss argument.",
+    "link": "https://web.archive.org/web/20250723195949/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.120.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-08",
+    "title": "Order Resetting Deadlines/Hearings",
+    "summary": "One-page scheduling order. The PDF is image-only with no extractable body text.",
+    "significance": "Routine scheduling order shortly before case reassignment to Judge Cote.",
+    "link": "https://web.archive.org/web/20250723195855/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.121.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned one-pager; summary kept structural."
+  },
+  {
+    "date": "2025-07-10",
+    "title": "Defendants' Reply Memorandum in Support of Motion to Dismiss",
+    "summary": "Joint defense reply brief in support of the motion to dismiss, responding to the government's opposition on whether Samourai Wallet is a \"money transmitting business\" under Section 1960, the fair-notice argument, and the sufficiency of the Section 1956 money-laundering conspiracy count. Case caption reflects reassignment to Judge Cote.",
+    "significance": "Closes the motion-to-dismiss briefing in advance of oral argument on July 22.",
+    "link": "https://web.archive.org/web/20250715120534/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.123.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-14",
+    "title": "Government Letter Seeking Speedy-Trial Exclusion",
+    "summary": "Government letter to Judge Cote, with defense consent, asking the court to exclude time under the Speedy Trial Act until the July 22 arraignment on the S3 superseding indictment.",
+    "significance": "Bridges the speedy-trial clock across the scheduling gap created by the reassignment to Judge Cote.",
+    "link": "https://web.archive.org/web/20250723195726/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.124.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-14",
+    "title": "Memo Endorsement on Speedy-Trial Request",
+    "summary": "One-page memo endorsement on the July 14 government letter. PDF is image-only.",
+    "significance": "Per Dkt. 130, the court excluded speedy-trial time through July 22, 2025.",
+    "link": "https://web.archive.org/web/20250723195739/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.125.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned endorsement; effect stated per later speedy-trial report."
+  },
+  {
+    "date": "2025-07-21",
+    "title": "Government Status Letter to Judge Cote",
+    "summary": "Government letter providing Judge Cote, following reassignment from Judge Berman, with a procedural history of the case, a summary of the charges, an overview of the S3 superseding indictment, the status of pretrial motions, and a trial plan. Notes thirteen batches of Rule 16 discovery produced and the government's anticipation of at least one additional superseding indictment before trial.",
+    "significance": "Baseline briefing for the newly assigned trial judge; consolidates the procedural posture.",
+    "link": "https://web.archive.org/web/20250723195821/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.126.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-22",
+    "title": "Disclosure",
+    "summary": "One-page disclosure filed on the date of the S3 arraignment and motion-to-dismiss argument before Judge Cote. The PDF is image-only with no extractable body text.",
+    "significance": "Filed in connection with the July 22 proceedings; substance not readable from the PDF.",
+    "link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.129.0.pdf",
+    "flags": ["minimal-content", "sealed-risk", "ambiguous"],
+    "reviewerNote": "Titled \"Disclosure\" on the docket; because disclosures in this case have touched on Brady material and third-party identifiers, flagged sealed-risk by default."
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Government Letter on Speedy Trial Act Computation",
+    "summary": "Government letter to Judge Cote, as requested at the July 22 conference, reporting on Speedy Trial Act exclusions since April 29, 2024 and concluding that approximately four days have been deducted from the clock, with the remainder excluded through the November 3, 2025 trial date.",
+    "significance": "Establishes the speedy-trial baseline under the new trial judge.",
+    "link": "https://web.archive.org/web/20260409024043/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.130.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Defense Letter Regarding Hill's Trial Return",
+    "summary": "Letter from Hill's counsel informing the court that Hill will return to the United States on October 20, 2025 in advance of the November 3 trial and will reside with family in Brooklyn during trial, consistent with existing pretrial-services practice.",
+    "significance": "Resolves a logistical question raised by the court regarding Hill's presence for trial.",
+    "link": "https://web.archive.org/web/20260409024158/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.131.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Memo Endorsement",
+    "summary": "One-page memo endorsement filed on July 23, 2025. PDF is image-only with no extractable body text.",
+    "significance": "Routine; companion to other July 23 filings.",
+    "link": "https://web.archive.org/web/20260409024439/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.132.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned one-pager; no substance extractable."
+  },
+  {
+    "date": "2025-07-23",
+    "title": "Memorandum Opinion and Order Denying Severance",
+    "summary": "Memorandum opinion and order by Judge Cote denying Hill's motion to sever his trial from Rodriguez's. Applying the Second Circuit's four-factor test, the court concludes that Hill has not shown Rodriguez would testify at a severed trial, that any such testimony would be cumulative and not clearly exculpatory, that judicial economy favors a joint trial, and that the proposed testimony would be subject to substantial impeachment.",
+    "significance": "First substantive pretrial ruling from Judge Cote; keeps the case on track for a single joint trial on November 3.",
+    "link": "https://web.archive.org/web/20250729230329/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.133.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Flagged sealed-risk because the opinion discusses proposed privileged communications and a proposed ex parte affidavit; kept description to the court's legal holding and factors."
+  },
+  {
+    "date": "2025-07-25",
+    "title": "Memorandum of Law in Support of Hill's Motion to Suppress (Public Version)",
+    "summary": "Memorandum of law supporting Hill's motion to suppress evidence obtained through the seizure and search of his personal email account, arguing that the supporting affidavit contained false or misleading statements, lacked probable cause, was impermissibly overbroad under the Fourth Amendment, and that the good-faith exception does not apply.",
+    "significance": "Public version of Hill's suppression brief, refiled with redactions after coordination with the government under the protective order.",
+    "link": "https://web.archive.org/web/20260409025208/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.136.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Flagged sealed-risk per instructions for suppression motions and because the brief discusses the underlying search-warrant affidavit and identified third-party information."
+  },
+  {
+    "date": "2025-07-25",
+    "title": "Defense Letter on Sealing and Redactions (Memo Endorsement)",
+    "summary": "Defense letter reporting, at the court's direction, that after coordination with the government the suppression-motion materials can now be placed on the public docket with limited redactions of personal email addresses, telephone numbers, names of non-parties, cryptocurrency wallet addresses, and certain subscriber information and web-search data from Hill's personal email account.",
+    "significance": "Establishes the narrowed public-redactions framework for the suppression record in response to the court's direction at the July 22 hearing.",
+    "link": "https://web.archive.org/web/20260409025429/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.138.0.pdf",
+    "flags": ["sealed-risk", "markdown-duplicate"],
+    "reviewerNote": "Markdown source file mapped the same URL (Dkt. 138) to both a 'Letter' entry and a 'Memo Endorsement' entry. In CourtListener this docket number corresponds to a single PDF. Retained as one entry and flagged 'markdown-duplicate' per instructions."
+  },
+  {
+    "date": "2025-07-29",
+    "title": "Order Resetting Hearings and Terminating Motions",
+    "summary": "One-page order by Judge Cote. PDF is image-only with no extractable body text.",
+    "significance": "Clears the motion docket and sets or resets hearing dates in the final pretrial run-up.",
+    "link": "https://web.archive.org/web/20250905162944/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.141.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned; summary drawn from the docket title."
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Order",
+    "summary": "Five-page order by Judge Cote filed July 30, 2025. The PDF is image-only with no extractable body text.",
+    "significance": "Substantive content cannot be summarized from the PDF; appears in the run of pretrial orders following the severance and suppression rulings.",
+    "link": "https://web.archive.org/web/20250907083515/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.143.0.pdf",
+    "flags": ["minimal-content", "ambiguous"],
+    "reviewerNote": "Scanned; kept summary structural and did not guess at the ruling's substance."
+  },
+  {
+    "date": "2025-07-30",
+    "title": "Order",
+    "summary": "One-page order by Judge Cote filed July 30, 2025. The PDF is image-only with no extractable body text.",
+    "significance": "Companion order to Dkt. 143 on the same date; substance not readable from the PDF.",
+    "link": "https://web.archive.org/web/20260409025925/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.144.0_1.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned one-pager."
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Transcript of July 22, 2025 Proceedings",
+    "summary": "Official transcript of the July 22, 2025 proceedings before Judge Cote, including the arraignment of both defendants on the S3 superseding indictment, the exclusion of speedy-trial time through the November 3 trial date, and discussion of pretrial motions and scheduling.",
+    "significance": "First on-the-record proceedings before the newly assigned trial judge; confirms the trial date and plea posture.",
+    "link": "https://web.archive.org/web/20251219205637/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.145.0.pdf",
+    "flags": [],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Notice of Filing of Official Transcript",
+    "summary": "Court reporter's notice that the official transcript of the July 22, 2025 proceedings has been filed, triggering the standard seven-day redaction window.",
+    "significance": "Administrative notice accompanying the transcript filed at Dkt. 145.",
+    "link": "https://web.archive.org/web/20260409030147/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.146.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": ""
+  },
+  {
+    "date": "2025-10-08",
+    "title": "Notice of Filing of Official Transcript",
+    "summary": "Court reporter's notice of filing of an official transcript on October 8, 2025, with the standard redaction window applying.",
+    "significance": "Places a further on-the-record proceeding into the public docket during the final pretrial period.",
+    "link": "https://web.archive.org/web/20251219205625/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.150.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Transcript itself (and the underlying proceeding date) not readable from this notice; summary limited to the administrative fact."
+  },
+  {
+    "date": "2025-10-31",
+    "title": "Government's Sentencing Memorandum",
+    "summary": "Government sentencing memorandum filed in advance of the scheduled sentencings of Rodriguez and Hill. The government argues for a sentence of sixty months' imprisonment for each defendant and sets out its view of the offense conduct and sentencing factors under 18 U.S.C. Section 3553(a).",
+    "significance": "Frames the government's sentencing position following the defendants' change of posture.",
+    "link": "https://web.archive.org/web/20251210082901/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.157.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Flagged sealed-risk per instructions for sentencing submissions; summary kept structural and attributes prosecutorial claims. Declined to quote the government's characterization of the offense conduct."
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Order Resetting Deadlines/Hearings",
+    "summary": "One-page scheduling order by Judge Cote resetting deadlines or hearings. PDF is image-only with no extractable body text.",
+    "significance": "Adjusts the sentencing-phase calendar.",
+    "link": "https://web.archive.org/web/20260409030538/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.158.0.pdf",
+    "flags": ["minimal-content"],
+    "reviewerNote": "Scanned one-pager; summary drawn from docket title."
+  },
+  {
+    "date": "2025-11-10",
+    "title": "Government's Sentencing Memorandum (Refiled)",
+    "summary": "Refiled version of the government's sentencing memorandum. The document is substantively the same filing as Dkt. 157, bearing a November 10, 2025 docket date.",
+    "significance": "Appears to be a re-entry of the government sentencing memorandum on the docket shortly before sentencing.",
+    "link": "https://web.archive.org/web/20251219205544/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.161.0.pdf",
+    "flags": ["sealed-risk"],
+    "reviewerNote": "Content matches Dkt. 157 verbatim on the pages sampled; kept structural and attributed. Flagged sealed-risk per instructions."
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Order",
+    "summary": "Two-page order by Judge Cote filed November 19, 2025. PDF is image-only with no extractable body text.",
+    "significance": "Entered in the final week before the November 20 Judgment; substance not readable from the PDF.",
+    "link": "https://web.archive.org/web/20251219205546/https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.162.0.pdf",
+    "flags": ["minimal-content", "ambiguous"],
+    "reviewerNote": "Scanned; no extractable text. Declined to guess at the ruling's content."
+  }
+]

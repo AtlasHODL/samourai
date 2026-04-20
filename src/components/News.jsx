@@ -171,14 +171,14 @@ const News = () => {
           </div>
           {/* Second Col */}
           <div className='basis-5/12 xl:basis-3/12 2xl:basis-2/12 grow shrink md:ps-7'>
-            <a className='block mx-auto aspect-square mb-8 max-w-80 border-2' href=''>
+            <a className='block mx-auto aspect-square mb-8 max-w-80 border-2' href='https://www.coindesk.com/policy/2024/04/24/samourai-wallet-founders-arrested-and-charged-with-money-laundering' target='__blank'>
               <img src={news2} alt="" className='w-full h-auto p-12 2sxl:p-28' loading='lazy' />
             </a>
-            <a className='block mb-8 group border-b-2' href="">
+            <a className='block mb-8 group border-b-2' href="https://www.coindesk.com/policy/2024/04/24/samourai-wallet-founders-arrested-and-charged-with-money-laundering" target='__blank'>
               <p className='mb-5 font-bold text-2xl sm:text-3xl lg:text-4xl transition-color duration-300 ease-out group-hover:text-red'>samourai <span className='text-red transition-color duration-300 ease-out group-hover:text-white'>wallet </span>founders</p>
               <p className='mb-10 text-xl sm:text-2xl lg:text-3xl font-mono'>Arrested and Charged With Money Laundering.</p>
             </a>
-            <a className='block group' href="">
+            <a className='block group' href="https://forextv.com/bitcoin-news/doj-arrests-bitcoin-wallet-founders-amid-cash-like-privacy-concerns/" target='__blank'>
               <p className='mb-5 font-bold text-2xl sm:text-3xl lg:text-4xl transition-color duration-300 ease-out group-hover:text-red'>doj arrests <span className='text-red transition-color duration-300 ease-out group-hover:text-white'>bitcoin </span>wallet</p>
               <p className='mb-10 text-xl sm:text-2xl lg:text-3xl font-mono'>Founders Amid Cash-Like Privacy Concerns</p>
             </a>
@@ -188,14 +188,14 @@ const News = () => {
         {/* Last Row */}
         <div className='flex flex-wrap gap-x-10 items-stretch'>
           <div className='basis-6/12 lg:basis-5/12 grow border-y-2 py-8'>
-            <a className='block group' href="">
+            <a className='block group' href="https://mises.org/mises-wire/arrest-samourai-wallet-developers-shows-us-government-hates-privacy-and-freedom" target='__blank'>
 
               <p className='mb-5 text-2xl sm:text-3xl lg:text-4xl font-bold transition-color duration-300 ease-out group-hover:text-red'>The arrest of <br className='hidden lg:inline' /> <span className='text-red transition-color duration-300 ease-out group-hover:text-white'>Samourai Wallet</span></p>
               <p className='text-xl sm:text-2xl lg:text-3xl text-wrap font-mono'>Developers Shows the US Government Hates Privacy and Freedom</p>
             </a>
           </div>
           <div className='grow py-2'>
-            <a className='border-2 h-full flex justify-center' href=''>
+            <a className='border-2 h-full flex justify-center' href='https://mises.org/mises-wire/arrest-samourai-wallet-developers-shows-us-government-hates-privacy-and-freedom' target='__blank'>
               <img src={news3} alt="" className='w-72 ' loading='lazy' />
             </a>
 

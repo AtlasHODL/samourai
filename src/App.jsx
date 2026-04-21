@@ -1,20 +1,25 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Donate from './components/Donate'
-import Merch from './components/Merch'
-import News from './components/News'
-import Resources from './components/Resources'
-import Timeline from './components/Timeline'
+import './App.css'
+import Nav from './components/Nav'
+import HomePage from './pages/HomePage'
+import NewsPage from './pages/NewsPage'
+import ResourcesPage from './pages/ResourcesPage'
+import CourtDocumentsPage from './pages/CourtDocumentsPage'
 
 function App() {
   return (
-    <div className='px-4 sm:px-16'>
-      <Donate />
-      <News />
-      <Timeline />
-      <Merch />
-      <Resources />
-    </ div>
+    <BrowserRouter>
+      <div className='px-4 sm:px-16'>
+        <Nav />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/news' element={<NewsPage />} />
+          <Route path='/resources' element={<ResourcesPage />} />
+          <Route path='/court-documents' element={<CourtDocumentsPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 

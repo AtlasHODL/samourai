@@ -2,7 +2,8 @@
 export default {
   content: ["./index.html",
     "./src/App.jsx",
-    "./src/components/*.{js,ts,jsx,tsx}",],
+    "./src/components/*.{js,ts,jsx,tsx}",
+    "./src/pages/*.{js,ts,jsx,tsx}",],
   theme: {
     // Guardar cuando haya acabado de poner las family fonts
     fontFamily: {

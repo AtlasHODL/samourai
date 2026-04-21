@@ -133,6 +133,10 @@ const Resources = () => {
   // Dojo
   const dojoList = [
     {
+      title: 'Dojo Open Source Project (dojo-osp.org)',
+      url: 'https://dojo-osp.org/',
+    },
+    {
       title: 'Dojo Github',
       url: 'https://github.com/Dojo-Open-Source-Project/samourai-dojo',
     },
@@ -189,6 +193,10 @@ const Resources = () => {
   // PayNyms
   const PayNymsList = [
     {
+      title: 'BIP47 Directory (bip47db)',
+      url: 'https://bip47db.github.io/',
+    },
+    {
       title: 'PayNyms Documentation',
       url: 'https://web.archive.org/web/20240426040030mp_/https://docs.samourai.io/wallet/paynyms',
     },
@@ -211,6 +219,18 @@ const Resources = () => {
     {
       title: 'Auth47 PayNyms',
       url: 'https://blog.ronindojo.io/auth47-paynyms/',
+    },
+  ]
+
+  // Ashigaru — successor project continuing Samourai's coinjoin work
+  const ashigaruList = [
+    {
+      title: 'Ashigaru Whirlpool — Announcement',
+      url: 'https://ashigaru.rs/news/announcement-whirlpool/',
+    },
+    {
+      title: 'Ashigaru Whirlpool and Terminal v1.0.0 Released',
+      url: 'https://www.nobsbitcoin.com/ashigaru-whirlpool-and-terminal-v1-0-0/',
     },
   ]
 
@@ -284,7 +304,7 @@ const Resources = () => {
                   </li>
                   {sentinelList.map((sentinel, key) => {
 
-                    return (<li className='py-6 border-t-2'>
+                    return (<li className='py-6 border-t-2' key={key}>
                       <a className='block ease-out hover:text-red transition-color duration-300' href={sentinel.url}>
                         {sentinel.title}
                       </a>
@@ -323,7 +343,7 @@ const Resources = () => {
                   </li>
                   {dojoList.map((dojo, key) => {
 
-                    return (<li className='py-6 border-t-2'>
+                    return (<li className='py-6 border-t-2' key={key}>
                       <a className='block ease-out hover:text-red transition-color duration-300' href={dojo.url} target='__blank'>
                         {dojo.title}
                       </a>
@@ -360,7 +380,7 @@ const Resources = () => {
                   </li>
                   {roninDojoList.map((roninDojo, key) => {
                     return (
-                      <li className='py-6 border-t-2'>
+                      <li className='py-6 border-t-2' key={key}>
                         <a className='block ease-out hover:text-red transition-color duration-300' href={roninDojo.url} target='__blank'>
                           {roninDojo.title}</a>
                       </li>)
@@ -393,12 +413,49 @@ const Resources = () => {
                       PayNyms</a>
                   </li>
                   {PayNymsList.map((PayNyms, key) => {
-                    return (<li className='py-6 border-t-2'>
+                    return (<li className='py-6 border-t-2' key={key}>
                       <a className='block ease-out hover:text-red transition-color duration-300' href={PayNyms.url} target='__blank'>
                         {PayNyms.title}
                       </a>
                     </li>)
                   })}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Sixth Row — Ashigaru (successor project) */}
+        <div className='flex items-center justify-center md:justify-start gap-x-20 mb-16'>
+          <div className='md:basis-8/12'>
+            <div className='px-0.5 py-0.5 mb-0 text-black bg-white'>
+              <div className='flex justify-between mb-1 px-2'>
+                <p className='font-mono text-3xl basis-auto font-black'>Ashigaru</p>
+                <div className='basis-2/12 block self-center'>
+                  <img src={windowIcons} alt='' loading='lazy' />
+                </div>
+              </div>
+              <div className='bg-black text-white'>
+                <ul className='ms-4 pe-2 h-[28rem] text-3xl font-mono overflow-y-scroll'>
+                  <li className='py-6 pt-2'>
+                    <a
+                      className='block ease-out hover:text-red transition-color duration-300'
+                      href='https://ashigaru.rs/'
+                      target='__blank'
+                    >
+                      Ashigaru
+                    </a>
+                  </li>
+                  {ashigaruList.map((item, key) => (
+                    <li className='py-6 border-t-2' key={key}>
+                      <a
+                        className='block ease-out hover:text-red transition-color duration-300'
+                        href={item.url}
+                        target='__blank'
+                      >
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

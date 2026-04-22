@@ -133,7 +133,7 @@ const Timeline = () => {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder='title or content…'
-              className='flex-1 bg-transparent border-b-2 border-white focus:border-red outline-none font-mono text-sm sm:text-base py-1 placeholder:opacity-40'
+              className='flex-1 bg-transparent text-white caret-red border-b-2 border-white focus:border-red outline-none font-mono text-sm sm:text-base py-1 placeholder:text-white placeholder:opacity-40'
             />
           </div>
         </div>

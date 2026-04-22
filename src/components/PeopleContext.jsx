@@ -1,59 +1,59 @@
-import keonnePhoto from '../assets/images/People/keonne-rodriguez.png'
-
-const people = [
-  {
-    name: 'Keonne Rodriguez',
-    role: 'CEO, Samourai Wallet',
-    image: keonnePhoto,
-  },
-  {
-    name: 'William Lonergan Hill',
-    role: 'CTO, Samourai Wallet',
-    image: null,
-  },
-]
+import jumbotron from '../assets/images/People/jumbotron.jpg'
 
 const PeopleContext = () => {
   return (
     <section className='container mx-auto mt-8 mb-16' id='people'>
       <div className='pb-6 mb-10 border-b-2 border-white'>
         <h2 className='font-sans text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-red font-bold uppercase'>
-          The people
+          Meet Bill and Keonne
         </h2>
+        <p className='mt-3 font-mono text-base sm:text-lg lg:text-xl opacity-80 uppercase tracking-wider'>
+          Real people, real lives
+        </p>
       </div>
 
+      {/* Banner photo */}
+      <div className='px-4 md:px-8 mb-10'>
+        <div className='border-2 border-white overflow-hidden'>
+          <img
+            src={jumbotron}
+            alt='William Lonergan Hill (Bill) and Keonne Rodriguez'
+            className='w-full h-auto'
+            loading='lazy'
+          />
+        </div>
+        <p className='mt-3 font-mono text-xs sm:text-sm opacity-60'>
+          Photo: Bill (left) and Keonne (right). Source: billandkeonne.org.
+        </p>
+      </div>
+
+      {/* Bios */}
       <div className='px-4 md:px-8 grid gap-8 md:grid-cols-2'>
-        {people.map((person) => (
-          <div key={person.name} className='border-2 border-white flex flex-col'>
-            {/* Image slot */}
-            <div className='aspect-[4/3] bg-white flex items-center justify-center overflow-hidden'>
-              {person.image ? (
-                <img
-                  src={person.image}
-                  alt={person.name}
-                  className='w-full h-full object-cover'
-                  loading='lazy'
-                />
-              ) : (
-                <p className='font-mono text-sm sm:text-base text-black opacity-50 uppercase tracking-wider'>
-                  photo forthcoming
-                </p>
-              )}
-            </div>
-            <div className='px-4 py-5 border-t-2 border-white'>
-              <p className='font-sans font-bold text-xl sm:text-2xl lg:text-3xl'>
-                {person.name}
-              </p>
-              <p className='mt-1 font-mono text-base sm:text-lg text-red'>{person.role}</p>
-            </div>
-          </div>
-        ))}
+        <div>
+          <p className='font-sans font-bold text-2xl sm:text-3xl lg:text-4xl'>
+            William Lonergan Hill
+          </p>
+          <p className='mt-1 mb-4 font-mono text-base sm:text-lg text-red'>
+            CTO, Samourai Wallet · age 67
+          </p>
+          <p className='font-mono text-base sm:text-lg lg:text-xl leading-snug'>
+            Software developer and co-founder of Samourai Wallet. A career spent
+            building non-custodial tools and privacy-preserving software.
+          </p>
+        </div>
+        <div>
+          <p className='font-sans font-bold text-2xl sm:text-3xl lg:text-4xl'>
+            Keonne Rodriguez
+          </p>
+          <p className='mt-1 mb-4 font-mono text-base sm:text-lg text-red'>
+            CEO, Samourai Wallet · age 37 · Florida
+          </p>
+          <p className='font-mono text-base sm:text-lg lg:text-xl leading-snug'>
+            American developer and co-founder of Samourai in 2015. A family-focused
+            builder behind a decade of open-source Bitcoin software.
+          </p>
+        </div>
       </div>
-
-      <p className='mt-8 px-4 md:px-8 font-mono text-sm sm:text-base opacity-60 italic max-w-3xl'>
-        Additional context — family, collaborators, the community around the project —
-        forthcoming.
-      </p>
     </section>
   )
 }

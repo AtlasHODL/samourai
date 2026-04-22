@@ -4,7 +4,7 @@ const PeopleContext = () => {
   return (
     <section className='container mx-auto mt-8 mb-16' id='people'>
       <div className='pb-6 mb-10 border-b-2 border-white'>
-        <h2 className='font-sans text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-red font-bold uppercase'>
+        <h2 className='font-sans text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-red font-bold uppercase leading-tight text-balance'>
           Meet Bill and Keonne
         </h2>
         <p className='mt-3 font-mono text-base sm:text-lg lg:text-xl opacity-80 uppercase tracking-wider'>

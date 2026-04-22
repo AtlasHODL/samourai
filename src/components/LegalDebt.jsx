@@ -18,24 +18,11 @@ const LegalDebt = () => {
             income.
           </p>
 
-          <blockquote className='pt-5 border-t-2 border-white'>
-            <p className='font-mono text-base sm:text-lg lg:text-xl leading-snug italic'>
-              "As a wife, watching my husband fight… Your generosity means the
-              world to me."
-            </p>
-            <p className='mt-2 font-mono text-xs sm:text-sm opacity-60'>
-              — Keonne's wife (via billandkeonne.org)
-            </p>
-          </blockquote>
-
-          <blockquote className='pt-5 border-t-2 border-white'>
-            <p className='font-mono text-base sm:text-lg lg:text-xl leading-snug italic'>
-              "My husband and I stay in the fight. The fight stays within us."
-            </p>
-            <p className='mt-2 font-mono text-xs sm:text-sm opacity-60'>
-              — Bill's wife (via billandkeonne.org)
-            </p>
-          </blockquote>
+          <p className='pt-5 border-t-2 border-white font-mono text-base sm:text-lg lg:text-xl leading-snug'>
+            Their families are carrying the weight of the case while they are in
+            custody. Contributions go directly toward legal costs, day-to-day
+            expenses, and the work to bring them home.
+          </p>
         </div>
 
         <div className='md:border-l-2 md:border-white md:ps-8 flex flex-col items-start gap-4'>

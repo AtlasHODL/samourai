@@ -15,10 +15,11 @@ const interviews = [
     source: 'Rumble',
   },
   {
-    title: '#FreeSamourai — dammkevl',
-    description: 'Short-form explainer on the case and what is at stake.',
-    url: 'https://ronindojo.io/freesamourai/',
-    source: 'Blog',
+    title: "He Built a Privacy Tool. Now He's Going to Prison.",
+    description:
+      'Naomi Brockwell walks through the case in plain language — a complementary explainer for viewers new to the privacy-tools fight.',
+    url: 'https://www.youtube.com/watch?v=Fshsk8MCAf4',
+    source: 'Naomi Brockwell TV',
   },
 ]
 

@@ -6,6 +6,8 @@ const interviews = [
       'A general-audience interview on what the prosecution means for open-source developers.',
     url: 'https://www.youtube.com/watch?v=lHzYteijFFM',
     source: 'YouTube',
+    platform: 'youtube',
+    videoId: 'lHzYteijFFM',
   },
   {
     title: 'Keonne Rodriguez on the Kim Iversen Show',
@@ -13,6 +15,7 @@ const interviews = [
       'On being charged for writing privacy software and heading to federal prison.',
     url: 'https://rumble.com/v71ytcc-he-built-a-privacy-app-now-hes-going-to-prison-keonne-rodriguez.html',
     source: 'Rumble',
+    platform: 'rumble',
   },
   {
     title: "He Built a Privacy Tool. Now He's Going to Prison.",
@@ -20,8 +23,48 @@ const interviews = [
       'Naomi Brockwell walks through the case in plain language — a complementary explainer for viewers new to the privacy-tools fight.',
     url: 'https://www.youtube.com/watch?v=Fshsk8MCAf4',
     source: 'Naomi Brockwell TV',
+    platform: 'youtube',
+    videoId: 'Fshsk8MCAf4',
   },
 ]
+
+const PlayIcon = () => (
+  <svg
+    className='w-7 h-7 sm:w-8 sm:h-8 text-white translate-x-[2px]'
+    viewBox='0 0 24 24'
+    fill='currentColor'
+    aria-hidden='true'
+  >
+    <path d='M8 5v14l11-7z' />
+  </svg>
+)
+
+const Thumbnail = ({ item }) => (
+  <div className='relative aspect-video overflow-hidden border-b-2 border-white bg-black'>
+    {item.platform === 'youtube' ? (
+      <img
+        src={`https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`}
+        alt=''
+        className='w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105'
+        loading='lazy'
+      />
+    ) : (
+      <div className='absolute inset-0 flex items-center justify-center'>
+        <span className='font-mono uppercase text-sm tracking-[0.2em] opacity-30'>
+          {item.source}
+        </span>
+      </div>
+    )}
+    {/* Dark gradient for thumbnail contrast */}
+    <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none' />
+    {/* Play button overlay */}
+    <div className='absolute inset-0 flex items-center justify-center pointer-events-none'>
+      <div className='w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-red flex items-center justify-center shadow-lg transition-transform duration-300 ease-out group-hover:scale-110'>
+        <PlayIcon />
+      </div>
+    </div>
+  </div>
+)
 
 const WatchAndShare = () => {
   return (
@@ -41,25 +84,28 @@ const WatchAndShare = () => {
 
         <ul className='grid gap-6 md:grid-cols-3'>
           {interviews.map((item) => (
-            <li key={item.url} className='border-2 border-white p-5 flex flex-col'>
-              <p className='font-mono uppercase text-xs sm:text-sm tracking-wider opacity-60 mb-3'>
-                {item.source}
-              </p>
+            <li key={item.url} className='border-2 border-white flex flex-col'>
               <a
                 href={item.url}
                 target='_blank'
                 rel='noreferrer'
                 className='group flex-1 flex flex-col'
               >
-                <p className='font-sans font-bold text-xl sm:text-2xl leading-tight transition-colors duration-300 ease-out group-hover:text-red'>
-                  {item.title}
-                </p>
-                <p className='mt-3 font-mono text-base sm:text-lg leading-snug opacity-80 flex-1'>
-                  {item.description}
-                </p>
-                <span className='mt-5 font-mono uppercase text-sm sm:text-base tracking-wider text-red'>
-                  Watch →
-                </span>
+                <Thumbnail item={item} />
+                <div className='p-5 flex-1 flex flex-col'>
+                  <p className='font-mono uppercase text-xs sm:text-sm tracking-wider opacity-60 mb-3'>
+                    {item.source}
+                  </p>
+                  <p className='font-sans font-bold text-xl sm:text-2xl leading-tight transition-colors duration-300 ease-out group-hover:text-red'>
+                    {item.title}
+                  </p>
+                  <p className='mt-3 font-mono text-base sm:text-lg leading-snug opacity-80 flex-1'>
+                    {item.description}
+                  </p>
+                  <span className='mt-5 font-mono uppercase text-sm sm:text-base tracking-wider text-red transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                    Watch →
+                  </span>
+                </div>
               </a>
             </li>
           ))}

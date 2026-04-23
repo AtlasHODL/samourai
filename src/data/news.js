@@ -171,6 +171,25 @@ export const news = [
   // and Privacy" was removed from Forbes after the original curation
   // (confirmed 2026-04-23). Dropped; can be re-added if a replacement
   // Forbes piece is confirmed.
+
+  // ─── Axios ───────────────────────────────────────────────────────────
+  {
+    publication: 'Axios',
+    date: '2024-04-24',
+    title:
+      'Samourai Wallet founders arrested as part of federal crackdown on crypto mixing',
+    url: 'https://www.axios.com/2024/04/24/samourai-wallet-arrested-crypto-mixing',
+    note: 'Day-of coverage from a mainstream general-news outlet.',
+  },
+
+  // ─── Bitcoin Magazine ────────────────────────────────────────────────
+  {
+    publication: 'Bitcoin Magazine',
+    date: '2024-04-29',
+    title: 'Samourai Wallet: Breaking Down Dangerous Precedents',
+    author: 'L0la L33tz',
+    url: 'https://bitcoinmagazine.com/legal/samourai-wallet-breaking-down-dangerous-precedents',
+  },
 ]
 
 // Publication order for the filter bar — editorial priority + coverage volume.
@@ -179,9 +198,11 @@ export const news = [
 export const publicationOrder = [
   'CoinDesk',
   'TheRage',
+  'Bitcoin Magazine',
   'Bitcoin Policy Institute',
   'Cato Institute',
   'Coin Center',
   'Mises Institute',
   'Reason',
+  'Axios',
 ]

@@ -1,3 +1,5 @@
+import kimIversenPoster from '../assets/images/WatchAndShare/kim-iversen-keonne.png'
+
 // Curated interviews/videos. Add to this list as new coverage lands.
 const interviews = [
   {
@@ -16,6 +18,7 @@ const interviews = [
     url: 'https://rumble.com/v71ytcc-he-built-a-privacy-app-now-hes-going-to-prison-keonne-rodriguez.html',
     source: 'Rumble',
     platform: 'rumble',
+    posterImage: kimIversenPoster,
   },
   {
     title: "He Built a Privacy Tool. Now He's Going to Prison.",
@@ -39,32 +42,78 @@ const PlayIcon = () => (
   </svg>
 )
 
-const Thumbnail = ({ item }) => (
-  <div className='relative aspect-video overflow-hidden border-b-2 border-white bg-black'>
-    {item.platform === 'youtube' ? (
-      <img
-        src={`https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`}
-        alt=''
-        className='w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105'
-        loading='lazy'
-      />
-    ) : (
-      <div className='absolute inset-0 flex items-center justify-center'>
-        <span className='font-mono uppercase text-sm tracking-[0.2em] opacity-30'>
-          {item.source}
-        </span>
-      </div>
-    )}
-    {/* Dark gradient for thumbnail contrast */}
-    <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none' />
-    {/* Play button overlay */}
-    <div className='absolute inset-0 flex items-center justify-center pointer-events-none'>
-      <div className='w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-red flex items-center justify-center shadow-lg transition-transform duration-300 ease-out group-hover:scale-110'>
-        <PlayIcon />
-      </div>
+const DesignedPoster = ({ poster }) => (
+  <div className='absolute inset-0 flex flex-col justify-between p-4 sm:p-5'>
+    {/* Top kicker */}
+    <div className='flex items-baseline justify-between gap-x-3'>
+      <span className='font-mono uppercase text-xs tracking-[0.2em] text-red'>
+        {poster.kicker}
+      </span>
+      <span className='font-mono uppercase text-[10px] tracking-[0.2em] opacity-50'>
+        Interview
+      </span>
+    </div>
+    {/* Center headline */}
+    <div className='flex flex-col gap-y-1'>
+      <p className='font-sans font-bold uppercase text-base sm:text-lg leading-tight'>
+        {poster.headline}
+      </p>
+      <p className='font-sans font-bold uppercase text-sm sm:text-base text-red leading-tight'>
+        {poster.subhead}
+      </p>
+    </div>
+    {/* Bottom name */}
+    <div>
+      <div className='h-0.5 w-12 bg-red mb-2' />
+      <p className='font-sans font-bold text-sm sm:text-base leading-tight'>
+        {poster.name}
+      </p>
+      <p className='font-mono text-[11px] sm:text-xs opacity-60 uppercase tracking-wider'>
+        {poster.context}
+      </p>
     </div>
   </div>
 )
+
+const Thumbnail = ({ item }) => {
+  // Priority: real poster image if provided → YouTube CDN thumbnail →
+  // designed poster fallback → plain source label.
+  const showImage = item.posterImage
+    ? item.posterImage
+    : item.platform === 'youtube'
+    ? `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`
+    : null
+
+  return (
+    <div className='relative aspect-video overflow-hidden border-b-2 border-white bg-black'>
+      {showImage ? (
+        <>
+          <img
+            src={showImage}
+            alt=''
+            className='w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105'
+            loading='lazy'
+          />
+          <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none' />
+        </>
+      ) : item.poster ? (
+        <DesignedPoster poster={item.poster} />
+      ) : (
+        <div className='absolute inset-0 flex items-center justify-center'>
+          <span className='font-mono uppercase text-sm tracking-[0.2em] opacity-30'>
+            {item.source}
+          </span>
+        </div>
+      )}
+      {/* Play button overlay */}
+      <div className='absolute inset-0 flex items-center justify-center pointer-events-none'>
+        <div className='w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-red flex items-center justify-center shadow-lg transition-transform duration-300 ease-out group-hover:scale-110'>
+          <PlayIcon />
+        </div>
+      </div>
+    </div>
+  )
+}
 
 const WatchAndShare = () => {
   return (

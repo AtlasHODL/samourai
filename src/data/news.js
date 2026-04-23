@@ -167,16 +167,15 @@ export const news = [
   },
 
   // ─── Forbes ──────────────────────────────────────────────────────────
-  {
-    publication: 'Forbes',
-    date: '2024-04-26',
-    title:
-      'Samourai Indictment & FBI Notice are an Assault on Bitcoin and Privacy',
-    url: 'https://www.forbes.com/sites/digital-assets/2024/04/26/samurai-indictment--fbi-notice-are-an-assault-on-bitcoin-and-privacy/',
-  },
+  // 2024-04-26 "Samourai Indictment & FBI Notice are an Assault on Bitcoin
+  // and Privacy" was removed from Forbes after the original curation
+  // (confirmed 2026-04-23). Dropped; can be re-added if a replacement
+  // Forbes piece is confirmed.
 ]
 
 // Publication order for the filter bar — editorial priority + coverage volume.
+// Publications with zero active entries are filtered out of the toggle row
+// at render time.
 export const publicationOrder = [
   'CoinDesk',
   'TheRage',
@@ -185,5 +184,4 @@ export const publicationOrder = [
   'Coin Center',
   'Mises Institute',
   'Reason',
-  'Forbes',
 ]

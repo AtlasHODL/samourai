@@ -5,7 +5,7 @@ const LegalDebt = () => {
     <section className='container mx-auto mt-8 mb-16' id='legal-debt'>
       <div className='pb-6 mb-10 border-b-2 border-white'>
         <h2 className='font-sans text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-red font-bold uppercase leading-tight text-balance'>
-          Overwhelming legal debt
+          Overwhelming debt
         </h2>
       </div>
 

@@ -10,6 +10,7 @@ import PrisonLetters from '../components/PrisonLetters'
 import Updates from '../components/Updates'
 import TimelineTeaser from '../components/TimelineTeaser'
 import Merch from '../components/Merch'
+import SectionBreak from '../components/SectionBreak'
 
 // Strong summary article slot per brief §7.8. Swap when the team picks a
 // different canonical explainer.
@@ -46,14 +47,18 @@ const HomePage = () => {
       <Hero />
       <Support />
       <Overview />
+      <SectionBreak />
       <Pardon />
       <PeopleContext />
       <WatchAndShare />
       <FeaturedSummary />
+      <SectionBreak />
       <WhyThisMatters />
       <LegalDebt />
+      <SectionBreak />
       <PrisonLetters />
       <Updates />
+      <SectionBreak />
       <TimelineTeaser />
       <Merch />
     </>

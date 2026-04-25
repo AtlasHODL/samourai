@@ -8,6 +8,15 @@ import decoration2 from '../assets/images/Resources/decoration-2.svg';
 import decoration3 from '../assets/images/Resources/decoration-3.svg';
 import decoration4 from '../assets/images/Resources/decoration-4.svg';
 
+// Project marks (pulled from the Archive-Samourai-Wallet GitHub org and
+// active ecosystem sites — used as small icons next to each panel title).
+import samouraiMark from '../assets/images/Brand/samourai.png';
+import sentinelMark from '../assets/images/Brand/sentinel.png';
+import dojoMark from '../assets/images/Brand/dojo.svg';
+import roninMark from '../assets/images/Brand/ronindojo.png';
+import paynymMark from '../assets/images/Brand/paynym.png';
+import ashigaruMark from '../assets/images/Brand/ashigaru.png';
+
 const Resources = () => {
 
   // SamouraiWallet
@@ -252,7 +261,10 @@ const Resources = () => {
             <div className='px-0.5 py-0.5 2 mb-0 text-black bg-white'>
               {/* Samourai Wallet */}
               <div className="flex justify-between mb-1 px-2">
-                <p className="font-mono text-3xl basis-auto font-black">Samourai Wallet</p>
+                <p className="font-mono text-3xl basis-auto font-black flex items-center gap-x-3">
+                  <img src={samouraiMark} alt="" className="h-8 sm:h-10 w-auto" loading="lazy" />
+                  Samourai Wallet
+                </p>
                 <div className='basis-2/12 block self-center' alt="" >
                   <img src={windowIcons} alt="" loading='lazy' />
                 </div>
@@ -289,7 +301,10 @@ const Resources = () => {
             <div className='px-0.5 py-0.5 2 mb-0 text-black bg-white'>
               {/* Sentinel */}
               <div className="flex justify-between mb-1 px-2">
-                <p className="font-mono font-black text-3xl basis-auto">Sentinel</p>
+                <p className="font-mono font-black text-3xl basis-auto flex items-center gap-x-3">
+                  <img src={sentinelMark} alt="" className="h-8 sm:h-10 w-auto" loading="lazy" />
+                  Sentinel
+                </p>
                 <div className='basis-2/12 block self-center' alt="" >
                   <img src={windowIcons} alt="" loading='lazy' />
                 </div>
@@ -327,7 +342,10 @@ const Resources = () => {
             <div className='px-0.5 py-0.5 2 mb-0 text-black bg-white'>
               {/* Dojo */}
               <div className="flex justify-between mb-1 px-2">
-                <p className="font-mono text-3xl basis-auto font-black">Dojo</p>
+                <p className="font-mono text-3xl basis-auto font-black flex items-center gap-x-3">
+                  <img src={dojoMark} alt="" className="h-8 sm:h-10 w-auto" loading="lazy" />
+                  Dojo
+                </p>
                 <div className='basis-2/12 block self-center' alt="" >
                   <img src={windowIcons} alt="" loading='lazy' />
                 </div>
@@ -367,7 +385,10 @@ const Resources = () => {
             <div className='px-0.5 py-0.5 2 mb-0 text-black bg-white'>
               {/* RoninDojo */}
               <div className="flex justify-between mb-1 px-2">
-                <p className="font-mono text-3xl basis-auto font-black">RoninDojo</p>
+                <p className="font-mono text-3xl basis-auto font-black flex items-center gap-x-3">
+                  <img src={roninMark} alt="" className="h-8 sm:h-10 w-auto" loading="lazy" />
+                  RoninDojo
+                </p>
                 <div className='basis-2/12 block self-center' alt="" >
                   <img src={windowIcons} alt="" loading='lazy' />
                 </div>
@@ -400,7 +421,10 @@ const Resources = () => {
             <div className='px-0.5 py-0.5 2 mb-0 text-black bg-white'>
               {/* PayNyms */}
               <div className="flex justify-between mb-1 px-2">
-                <p className="font-mono text-3xl basis-auto font-black">PayNyms</p>
+                <p className="font-mono text-3xl basis-auto font-black flex items-center gap-x-3">
+                  <img src={paynymMark} alt="" className="h-8 sm:h-10 w-auto" loading="lazy" />
+                  PayNyms
+                </p>
                 <div className='basis-2/12 block self-center' alt="" >
                   <img src={windowIcons} alt="" loading='lazy' />
                 </div>
@@ -429,7 +453,10 @@ const Resources = () => {
           <div className='md:basis-8/12'>
             <div className='px-0.5 py-0.5 mb-0 text-black bg-white'>
               <div className='flex justify-between mb-1 px-2'>
-                <p className='font-mono text-3xl basis-auto font-black'>Ashigaru</p>
+                <p className='font-mono text-3xl basis-auto font-black flex items-center gap-x-3'>
+                  <img src={ashigaruMark} alt='' className='h-8 sm:h-10 w-auto' loading='lazy' />
+                  Ashigaru
+                </p>
                 <div className='basis-2/12 block self-center'>
                   <img src={windowIcons} alt='' loading='lazy' />
                 </div>

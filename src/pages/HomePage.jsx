@@ -47,7 +47,7 @@ const HomePage = () => {
       <Hero />
       <Support />
       <Overview />
-      <SectionBreak />
+      <SectionBreak variant='whirlpool' />
       <Pardon />
       <PeopleContext />
       <WatchAndShare />

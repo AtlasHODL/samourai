@@ -12,7 +12,7 @@ import decoration4 from '../assets/images/Resources/decoration-4.svg';
 // active ecosystem sites — used as small icons next to each panel title).
 import samouraiMark from '../assets/images/Brand/samourai.png';
 import sentinelMark from '../assets/images/Brand/sentinel.png';
-import dojoMark from '../assets/images/Brand/dojo.svg';
+import dojoMark from '../assets/images/Brand/dojo-circle.svg';
 import roninMark from '../assets/images/Brand/ronindojo.png';
 import paynymMark from '../assets/images/Brand/paynym.png';
 import ashigaruMark from '../assets/images/Brand/ashigaru.png';

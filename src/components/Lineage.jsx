@@ -3,6 +3,7 @@
 // Appears late on the homepage as a quiet "this is what they built"
 // before the Merch / footer.
 
+import { Link } from 'react-router-dom'
 import splash from '../assets/images/Brand/samourai-splash.png'
 
 const Lineage = () => {
@@ -20,12 +21,12 @@ const Lineage = () => {
         <p className='mt-6 font-mono text-base sm:text-lg lg:text-xl text-center opacity-80 max-w-3xl mx-auto'>
           Open-source. Non-custodial. Privacy by default. The work continues
           through the projects listed in{' '}
-          <a
-            href='/resources'
+          <Link
+            to='/resources'
             className='text-red transition-colors duration-300 ease-out hover:text-white'
           >
             Resources
-          </a>
+          </Link>
           .
         </p>
       </div>

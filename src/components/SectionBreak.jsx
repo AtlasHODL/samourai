@@ -9,10 +9,12 @@
 
 import asterism from '../assets/images/News/indictment-3.svg'
 import whirlpool from '../assets/images/Brand/whirlpool-cyclone.png'
+import katana from '../assets/images/Brand/samourai-icon.png'
 
 const VARIANTS = {
   asterism,
   whirlpool,
+  katana,
 }
 
 const SectionBreak = ({ variant = 'asterism', size = 'md' }) => {
@@ -32,7 +34,9 @@ const SectionBreak = ({ variant = 'asterism', size = 'md' }) => {
       <img
         src={src}
         alt=''
-        className={`${heights[size]} ${variant === 'whirlpool' ? 'opacity-80' : ''}`}
+        className={`${heights[size]} ${
+          variant === 'whirlpool' || variant === 'katana' ? 'opacity-80' : ''
+        }`}
         loading='lazy'
       />
       <div className='h-px flex-1 max-w-[14rem] bg-white opacity-30' />

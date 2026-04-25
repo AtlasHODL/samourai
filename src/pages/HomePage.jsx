@@ -9,6 +9,7 @@ import LegalDebt from '../components/LegalDebt'
 import PrisonLetters from '../components/PrisonLetters'
 import Updates from '../components/Updates'
 import TimelineTeaser from '../components/TimelineTeaser'
+import Lineage from '../components/Lineage'
 import Merch from '../components/Merch'
 import SectionBreak from '../components/SectionBreak'
 
@@ -55,11 +56,12 @@ const HomePage = () => {
       <SectionBreak />
       <WhyThisMatters />
       <LegalDebt />
-      <SectionBreak />
+      <SectionBreak variant='katana' />
       <PrisonLetters />
       <Updates />
       <SectionBreak />
       <TimelineTeaser />
+      <Lineage />
       <Merch />
     </>
   )

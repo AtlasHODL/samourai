@@ -22,10 +22,6 @@ const Resources = () => {
   // SamouraiWallet
   const samouraiWalletList = [
     {
-      title: 'Samourai Wallet APK Download (v0.99.98ii)',
-      url: 'files/sw-signed-0.99.98ii.apk',
-    },
-    {
       title: 'Samourai Wallet APK Signature',
       url: 'https://freesamourai.com/sw_apk.html',
     },
@@ -54,52 +50,12 @@ const Resources = () => {
       url: 'https://github.com/Archive-Samourai-Wallet/boltzmann-java',
     },
     {
-      title: 'Samourai Wallet Documentation',
-      url: 'https://web.archive.org/web/20240521004220/https://docs.samourai.io/',
-    },
-    {
-      title: 'Samourai Wallet Restore',
-      url: 'https://web.archive.org/web/20240429033852/https://docs.samourai.io/wallet/restore-recovery',
-    },
-    {
-      title: 'Spend Tools (Online Cahoots currently down)',
-      url: 'https://web.archive.org/web/20240521004236/https://docs.samourai.io/en/spend-tools',
-    },
-    {
-      title: 'Cahoots - Manual (P2P coinjoin/payjoin w/o coordinator)',
-      url: 'https://web.archive.org/web/20240426040031mp_/https://docs.samourai.io/wallet/cahoots',
-    },
-    {
-      title: 'Manual Stonewallx2 Video (P2P coinjoin w/o coordinator)',
-      url: 'https://www.youtube.com/watch?v=F-b9wWw_kQs',
-    },
-    {
-      title: 'Privacy Enhanced Transactions',
-      url: 'https://web.archive.org/web/20240426040030mp_/https://docs.samourai.io/wallet/privacy-enhanced-transactions',
-    },
-    {
-      title: 'Stonewall (Decoy P2P coinjoin)',
-      url: 'https://planb.network/en/tutorials/privacy/stonewall',
-    },
-    {
       title: 'Spending Privately',
       url: 'https://bitcoiner.guide/privacy/spend/',
     },
     {
       title: 'What We Protect',
       url: 'https://foundation.xyz/2023/01/what-we-protect/',
-    },
-    {
-      title: 'Advanced Usage',
-      url: 'https://web.archive.org/web/20240426040031mp_/https://docs.samourai.io/wallet/advanced-usage',
-    },
-    {
-      title: 'Tools Menu',
-      url: 'https://web.archive.org/web/20240426040458mp_/https://docs.samourai.io/wallet/tools/',
-    },
-    {
-      title: 'Offline Mode (Sign Transactions)',
-      url: 'https://web.archive.org/web/20230129065513/https://docs.samourai.io/en/wallet/features/offline-mode',
     },
     {
       title: 'Installing Samourai Wallet Offline',
@@ -117,14 +73,6 @@ const Resources = () => {
 
   // Sentinel
   const sentinelList = [
-    {
-      title: 'Sentinel Onion',
-      url: 'http://tlbpo3hf4oaj3e5u46r74ytz6tm7jkip7turjgvinndpdwupibbmxcid.onion/',
-    },
-    {
-      title: 'Sentinel APK Download (v5.0.1)',
-      url: 'files/sentinel-signed-5.0.1.apk',
-    },
     {
       title: 'Sentinel APK Signature',
       url: 'https://freesamourai.com/sentinel_apk.html',
@@ -150,18 +98,6 @@ const Resources = () => {
       url: 'https://github.com/Dojo-Open-Source-Project/samourai-dojo',
     },
     {
-      title: 'Dojo Documentation',
-      url: 'https://web.archive.org/web/20240522145347/https://docs.samourai.io/en/dojo',
-    },
-    {
-      title: 'Dojo x86 Bitcoin Node Guide',
-      url: 'https://web.archive.org/web/20240528214238/https://kyc3.life/dojo-x86-bitcoin-node-guide/',
-    },
-    {
-      title: "Vanilla Dojo, it's really this easy. (Might be a little outdated)",
-      url: 'https://web.archive.org/web/20220921035334/https://sovrnbitcoiner.com/vanilla-dojo-its-really-this-easy/',
-    },
-    {
       title: 'Dojo Sovereignty Confirmed 85% of Userbase',
       url: 'https://blog.ronindojo.io/most-whirlpool-users-run-dojo/',
     },
@@ -175,7 +111,7 @@ const Resources = () => {
     },
     {
       title: 'RoninDojo Documentation',
-      url: 'https://web.archive.org/web/20240426061333/https://wiki.ronindojo.io/en/home',
+      url: 'https://wiki.ronindojo.io/en/home',
     },
     {
       title: 'RoninDojo Blog',
@@ -212,14 +148,6 @@ const Resources = () => {
     {
       title: 'PayNyms 101',
       url: 'https://bitcoiner.guide/paynym/',
-    },
-    {
-      title: 'How BIP47 Works',
-      url: 'https://web.archive.org/web/20240508103537/https://blog.samourai.is/how-bip47-works/',
-    },
-    {
-      title: 'BIP47 PayNym',
-      url: 'https://planb.network/en/tutorials/privacy/paynym-bip47',
     },
     {
       title: 'Making sense of stealth addresses',
@@ -273,7 +201,7 @@ const Resources = () => {
               <div className='bg-black text-white'>
                 <ul className='ms-4 pe-2 h-[28rem] text-3xl font-mono overflow-y-scroll'>
                   <li className='py-6 pt-2'>
-                    <a className='block ease-out hover:text-red transition-color duration-300' href="https://web.archive.org/web/20240420204321/https://www.samouraiwallet.com/" target='__blank'>Samourai Wallet</a>
+                    <a className='block ease-out hover:text-red transition-color duration-300' href="https://www.samouraiwallet.com/" target='__blank'>Samourai Wallet</a>
                   </li>
                   {samouraiWalletList.map((samourai, key) => {
                     return (<li className='py-6 border-t-2' key={key}>
@@ -312,14 +240,9 @@ const Resources = () => {
               {/* Content */}
               <div className='bg-black text-white'>
                 <ul className='ms-4 pe-2 h-[28rem] text-3xl font-mono overflow-y-scroll'>
-                  <li className='py-6 pt-2'>
-                    <a className='block ease-out hover:text-red transition-color duration-300' href="https://sentinel.watch/">
-                      Sentinel
-                    </a>
-                  </li>
                   {sentinelList.map((sentinel, key) => {
 
-                    return (<li className='py-6 border-t-2' key={key}>
+                    return (<li className={key === 0 ? 'py-6 pt-2' : 'py-6 border-t-2'} key={key}>
                       <a className='block ease-out hover:text-red transition-color duration-300' href={sentinel.url}>
                         {sentinel.title}
                       </a>

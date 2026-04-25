@@ -9,9 +9,6 @@ const Lineage = () => {
   return (
     <section className='container mx-auto my-16' id='lineage'>
       <div className='px-4 md:px-8'>
-        <p className='mb-6 font-mono uppercase tracking-wider text-xs sm:text-sm opacity-60 text-center'>
-          What they built
-        </p>
         <div className='border-2 border-white overflow-hidden'>
           <img
             src={splash}

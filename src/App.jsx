@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
 import Nav from './components/Nav'
+import ScrollToTop from './components/ScrollToTop'
 import HomePage from './pages/HomePage'
 import NewsPage from './pages/NewsPage'
 import ResourcesPage from './pages/ResourcesPage'
@@ -10,6 +11,7 @@ import CourtDocumentsPage from './pages/CourtDocumentsPage'
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className='px-4 sm:px-16'>
         <Nav />
         <Routes>

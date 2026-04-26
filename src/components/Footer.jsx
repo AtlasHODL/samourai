@@ -15,12 +15,12 @@ const links = [
 ]
 
 const linkClass =
-  'inline-block px-4 py-2 border-2 border-white font-mono text-sm sm:text-base uppercase text-white hover:bg-white hover:text-black transition-colors duration-300 ease-out'
+  'pb-1 border-b-2 border-transparent text-white hover:text-red hover:border-red transition-colors duration-300 ease-out'
 
 const Footer = () => {
   return (
-    <footer className='container mx-auto mt-16 pt-8 pb-10 border-t-2 border-white'>
-      <ul className='flex flex-wrap justify-center md:justify-start items-center gap-3 sm:gap-4'>
+    <footer className='container mx-auto mt-20 pt-8 pb-10 border-t-2 border-white'>
+      <ul className='flex flex-wrap justify-center items-center gap-x-6 sm:gap-x-8 lg:gap-x-10 gap-y-3 font-mono font-bold uppercase text-xs sm:text-sm lg:text-base tracking-wider'>
         {links.map((link) => (
           <li key={link.label}>
             {link.to ? (

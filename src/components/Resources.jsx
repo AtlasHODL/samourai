@@ -117,22 +117,6 @@ const Resources = () => {
       title: 'RoninDojo Blog',
       url: 'https://blog.ronindojo.io/',
     },
-    {
-      title: 'Always Rise After a Fall',
-      url: 'https://blog.ronindojo.io/always-rise-after-a-fall/',
-    },
-    {
-      title: 'Setting Up Your Tanto - Tutorial',
-      url: 'https://bitcointv.com/w/xqDcsAWgJHbNyaZbHcArHM',
-    },
-    {
-      title: 'RoninUI v2.0 - Preview',
-      url: 'https://bitcointv.com/w/p/hpAXspsv8Fze5LRwunarKv',
-    },
-    {
-      title: 'How to install RoninDojo on a PC (Intel/AMD-x86_64)',
-      url: 'https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64/',
-    },
   ]
 
   // PayNyms

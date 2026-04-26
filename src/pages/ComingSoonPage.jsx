@@ -9,7 +9,7 @@ const ComingSoonPage = () => {
       <h1 className='font-stranger font-extralight text-6xl sm:text-8xl md:text-9xl text-red leading-none'>
         Coming Soon
       </h1>
-      <p className='mt-10 max-w-xl font-mono text-base sm:text-lg text-white/80'>
+      <p className='mt-10 max-w-2xl font-mono text-base sm:text-lg text-white/80'>
         The team is shipping. This destination will be live shortly.
       </p>
       <Link

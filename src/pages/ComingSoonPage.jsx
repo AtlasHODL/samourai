@@ -10,7 +10,7 @@ const ComingSoonPage = () => {
         Coming Soon
       </h1>
       <p className='mt-10 max-w-xl font-mono text-base sm:text-lg text-white/80'>
-        The team is shipping. This destination will be live shortly — check back from the conference floor.
+        The team is shipping. This destination will be live shortly.
       </p>
       <Link
         to='/'

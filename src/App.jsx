@@ -8,6 +8,8 @@ import HomePage from './pages/HomePage'
 import NewsPage from './pages/NewsPage'
 import ResourcesPage from './pages/ResourcesPage'
 import CourtDocumentsPage from './pages/CourtDocumentsPage'
+import MediaPage from './pages/MediaPage'
+import RebuttalsPage from './pages/RebuttalsPage'
 import ComingSoonPage from './pages/ComingSoonPage'
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path='/news' element={<NewsPage />} />
           <Route path='/resources' element={<ResourcesPage />} />
           <Route path='/court-documents' element={<CourtDocumentsPage />} />
+          <Route path='/media' element={<MediaPage />} />
+          <Route path='/rebuttals' element={<RebuttalsPage />} />
           <Route path='/coming-soon' element={<ComingSoonPage />} />
         </Routes>
         <Footer />

@@ -4,6 +4,8 @@ const navItems = [
   { to: '/', label: 'Home', end: true },
   { to: '/court-documents', label: 'Court Documents' },
   { to: '/news', label: 'News' },
+  { to: '/media', label: 'Media' },
+  { to: '/rebuttals', label: 'Rebuttals' },
   { to: '/resources', label: 'Resources' },
 ]
 

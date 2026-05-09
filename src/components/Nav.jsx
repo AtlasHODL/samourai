@@ -5,7 +5,7 @@ const navItems = [
   { to: '/court-documents', label: 'Court Documents' },
   { to: '/news', label: 'News' },
   { to: '/media', label: 'Media' },
-  { to: '/rebuttals', label: 'Rebuttals' },
+  { to: '/talking-points', label: 'Talking Points' },
   { to: '/resources', label: 'Resources' },
 ]
 

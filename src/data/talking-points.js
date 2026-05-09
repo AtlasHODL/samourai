@@ -1,18 +1,18 @@
-// Counter-arguments to the most common bad-faith claims about the Samourai
-// Wallet case. Ordered most-common (top) → least-common.
+// Talking points — counter-arguments to the most common bad-faith claims
+// about the Samourai Wallet case. Ordered most-common (top) → least-common.
 //
 // SEED CONTENT — drafted from starter threads provided by @econoalchemist
 // in the team chat. The team is still compiling the canonical wording with
 // Lauren Rodriguez and Rafael Yakobi; treat the `answer` strings here as
-// placeholders to be polished, and add new entries as additional rebuttals
-// are identified. Each card supports multiple `sources` (links shown under
-// the answer) — append references freely.
+// placeholders to be polished, and add new entries as additional talking
+// points are identified. Each card supports multiple `sources` (links shown
+// under the answer) — append references freely.
 //
 // Each entry has a stable `id` (slug) used for the anchor URL:
-//   /rebuttals#mixing-is-money-laundering
+//   /talking-points#mixing-is-money-laundering
 // Don't change an `id` after publication or shared links will break.
 
-export const rebuttals = [
+export const talkingPoints = [
   {
     id: 'mixing-is-money-laundering',
     claim: 'Keonne said “mixing is money laundering for bitcoin.”',

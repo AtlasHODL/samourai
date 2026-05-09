@@ -6,7 +6,7 @@ import { useLocation } from 'react-router-dom'
 // the bottom of the next page. Mount once inside <BrowserRouter>; it watches
 // pathname changes and snaps the window to (0,0).
 //
-// Exception: if the destination URL has a hash (e.g., /rebuttals#some-slug),
+// Exception: if the destination URL has a hash (e.g., /talking-points#slug),
 // skip the reset and let the destination page handle anchor-scrolling itself.
 const ScrollToTop = () => {
   const { pathname, hash } = useLocation()

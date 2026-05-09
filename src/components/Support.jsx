@@ -38,7 +38,7 @@ const Support = () => {
       </a>
 
       {/* Body */}
-      <div className='mt-12 px-4 md:px-8 grid gap-10 md:gap-14 md:grid-cols-12 items-center'>
+      <div className='mt-12 px-4 md:px-8 grid gap-10 md:gap-12 md:grid-cols-12 items-start'>
         {/* Microcopy */}
         <p className='md:col-span-7 font-mono text-lg sm:text-xl lg:text-2xl leading-snug'>
           Contributions go to supporting developers, their families, and the{' '}

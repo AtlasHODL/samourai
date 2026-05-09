@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className='container mx-auto mt-10 mb-14' id='hero'>
       {/* Thesis statement */}
-      <h1 className='pb-8 mb-10 font-sans font-bold uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight border-b-2 border-white'>
+      <h1 className='pb-8 mb-10 font-sans font-bold uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight border-b-2 border-white'>
         For the first time in history,{' '}
         <span className='text-red'>Bitcoin devs have been arrested and convicted</span>{' '}
         for developing a non-custodial Bitcoin wallet.

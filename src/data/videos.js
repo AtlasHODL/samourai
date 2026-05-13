@@ -19,8 +19,11 @@
 // section on billandkeonne.org; dates are scraped from each platform's
 // public metadata.
 
-// Poster image imports (used for platforms without a CDN thumbnail, e.g. Rumble).
+// Poster image imports (used for platforms without a CDN thumbnail, e.g.
+// Rumble, BitcoinTV, Twitter — download the upstream preview image into
+// src/assets/images/Media/ and import it here).
 import kimIversenPoster from '../assets/images/WatchAndShare/kim-iversen-keonne.png'
+import efratFenigsonPoster from '../assets/images/Media/efrat-fenigson-lauren-ep136.jpg'
 
 export const videoCategories = [
   { id: 'keonne', label: "Keonne's appearances" },
@@ -152,6 +155,7 @@ export const videos = [
     platform: 'twitter',
     tweetId: '2053498190578491397',
     url: 'https://x.com/efenigson/status/2053498190578491397',
+    posterImage: efratFenigsonPoster,
   },
   {
     id: 'watchman-privacy-lauren-saga',

@@ -6,7 +6,7 @@ const getEmbedSrc = (video) => {
   if (video.platform === 'youtube') {
     return `https://www.youtube.com/embed/${video.videoId}?autoplay=1&rel=0`
   }
-  if (video.platform === 'rumble') {
+  if (video.platform === 'rumble' || video.platform === 'bitcointv') {
     return video.embedUrl
   }
   return null

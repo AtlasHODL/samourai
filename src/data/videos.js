@@ -5,10 +5,12 @@
 //   - 'independent' : independent coverage / explainers about the case
 //
 // `platform` controls how the modal player embeds the video.
-//   Supported: 'youtube' | 'rumble' | 'bitcointv'
+//   Supported: 'youtube' | 'rumble' | 'bitcointv' | 'twitter'
 //   - 'youtube'   : provide videoId (the v= param)
 //   - 'rumble'    : provide embedUrl (Rumble Share → Embed)
 //   - 'bitcointv' : provide embedUrl (https://bitcointv.com/videos/embed/<uuid>)
+//   - 'twitter'   : provide tweetId (the status numeric id); modal renders an
+//                   X embed with the inline video.
 //
 // To add a new entry: append an object to the array. `date` is ISO (YYYY-MM-DD)
 // and is used for sorting (newest first within each category).
@@ -139,6 +141,18 @@ export const videos = [
   },
 
   // ─── Lauren Rodriguez ────────────────────────────────────────────────
+  {
+    id: 'efrat-fenigson-fighting-to-free-her-husband',
+    category: 'lauren',
+    title: "She's Fighting to Free Her Husband — Ep. 136",
+    outlet: 'Efrat Fenigson',
+    description:
+      'Lauren joins Efrat Fenigson to discuss the prosecution of her husband Keonne, the family’s experience, and what supporters can do.',
+    date: '2026-05-10',
+    platform: 'twitter',
+    tweetId: '2053498190578491397',
+    url: 'https://x.com/efenigson/status/2053498190578491397',
+  },
   {
     id: 'watchman-privacy-lauren-saga',
     category: 'lauren',

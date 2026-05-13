@@ -9,6 +9,11 @@ const getEmbedSrc = (video) => {
   if (video.platform === 'rumble' || video.platform === 'bitcointv') {
     return video.embedUrl
   }
+  if (video.platform === 'twitter') {
+    // platform.twitter.com renders an embeddable tweet (with playable video if
+    // the tweet has one). Falls back to "Open original" if X blocks embedding.
+    return `https://platform.twitter.com/embed/Tweet.html?id=${video.tweetId}&theme=dark`
+  }
   return null
 }
 
